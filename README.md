@@ -351,49 +351,6 @@ The **Microsoft Agent Framework** is an open-source development kit that unifies
 
 ---
 
-## 🔧 Environment Setup
-
-### 📋 System Requirements
-
-**Essential Components:**
-- 💻 [Visual Studio Code](https://code.visualstudio.com/) - Recommended development environment
-- ☁️ [Azure Subscription](https://ai.azure.com) - Active subscription with Azure AI Foundry access
-- 📦 [Git](https://git-scm.com/downloads) - Version control
-
-**Choose ONE of the following:**
-- 🐍 **Option A:** [Python 3.10+](https://www.python.org/downloads/) + [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
-- 🐳 **Option B (Docker Users):** [Docker Desktop](https://www.docker.com/products/docker-desktop/) + [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-
-**Knowledge Prerequisites:**
-- ✅ Intermediate Python programming skills
-- ✅ Basic understanding of machine learning concepts
-- ✅ Familiarity with REST APIs and web services
-### 🔧 Development Environment Setup
-
-**Option A: DevContainer (Automated)**
-- All extensions and tools are automatically configured when you open the project in a DevContainer
-- No manual setup required!
-
-**Option B: Manual Setup**
-
-Visual Studio Code Extensions:
-```powershell
-# Install required extensions
-code --install-extension ms-python.python
-code --install-extension ms-toolsai.jupyter
-code --install-extension ms-python.vscode-pylance
-```
-
-Alternative: JupyterLab
-```powershell
-# Launch JupyterLab
-jupyter lab
-```aunch JupyterLab
-jupyter lab
-```
-
----
-
 ## 🛠️ Troubleshooting & Support
 
 ### ⚡ Common Issues & Solutions
