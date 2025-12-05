@@ -65,7 +65,7 @@ git clone https://github.com/dhangerkapil/agentic-ai-lab.git
 cd agentic-ai-lab
 
 # Verify Python version (if not using DevContainer)
-python --version  # Should be 3.10 or higher
+python --version  # Python 3.12 preferred
 ```
 
 ### Step 2: Choose Your Development Environment
