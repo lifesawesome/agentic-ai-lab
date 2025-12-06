@@ -321,7 +321,7 @@ The **Microsoft Agent Framework** is an open-source development kit that unifies
 
 **Hosted Agents** are fully managed, containerized AI agents that run directly in Microsoft Foundry, eliminating the need to manage your own infrastructure. This Azure Developer CLI (azd) template provides a complete solution for deploying production-ready agents with auto-scaling, monitoring, and container orchestration.
 
-📖 [Complete Deployment Guide](hosted_agents/README.md) • 🔗 [Agent Samples Repository](https://github.com/azure-ai-foundry/foundry-samples/tree/main/samples/python/hosted-agents)
+📖 [Complete Deployment Guide](hosted_agents/README.md) 
 
 #### Features & Capabilities
 | Feature | Description |
