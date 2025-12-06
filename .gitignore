@@ -160,3 +160,10 @@ recipes.md
 red_team_output.json
 nutrition_data.csv
 bmi_analysis_assistant-*.png
+
+# Azure specific files
+.azure
+
+# Temporary files
+*.tmp
+*.tmp_proj

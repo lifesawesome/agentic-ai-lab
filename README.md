@@ -25,10 +25,11 @@ This comprehensive laboratory transforms you from an AI enthusiast into an Azure
 5. AI Red Teaming & Security Testing
 6. Agent Framework – Advanced Agent Development
 7. Observability & Evaluation
-8. AI Language Services with Low-Code Workflows
-9. AI Vision with Low-Code Solutions
-10. Content Understanding & Document Classification
-11. Responsible AI & Content Safety
+8. Hosted Agents Deployment
+9. AI Language Services with Low-Code Workflows
+10. AI Vision with Low-Code Solutions
+11. Content Understanding & Document Classification
+12. Responsible AI & Content Safety
 
 
 > **🎓 Laboratory Format**: One day intensive hands-on experience  
@@ -48,6 +49,7 @@ agentic-ai-lab/
 ├── 🔴 ai-red-teaming-agent/   # AI Red Teaming and Security Testing
 ├── 🤖⚙️ agent-framework/        # Microsoft Agent Framework for advanced agent development
 ├── 📊 observability-and-evaluations/         # Monitoring, evaluation, and quality assurance
+├── 🚀 hosted_agents/           # Hosted Agents deployment with Azure Developer CLI
 ├── 🗣️ ai-language/             # AI Language Services with Logic Apps low-code workflows
 ├── 👁️ ai-vision/               # AI Vision Services with low-code solutions
 ├── 📄 content-understanding/   # Document classification and content extraction
@@ -314,14 +316,29 @@ The **Microsoft Agent Framework** is an open-source development kit that unifies
 | 👁️ [Observability](observability-and-evaluations/1-Observability.ipynb) | Monitoring and telemetry |
 | 📈 [Evaluation](observability-and-evaluations/2-evaluation.ipynb) | Quality assessment and benchmarking |
 
-### 🗣️ Phase 8: AI Language Services with Low-Code Workflows
+### 🚀 Phase 8: Hosted Agents Deployment
+**Location:** `hosted_agents/`
+
+**Hosted Agents** are fully managed, containerized AI agents that run directly in Microsoft Foundry, eliminating the need to manage your own infrastructure. This Azure Developer CLI (azd) template provides a complete solution for deploying production-ready agents with auto-scaling, monitoring, and container orchestration.
+
+📖 [Complete Deployment Guide](hosted_agents/README.md) • 🔗 [Agent Samples Repository](https://github.com/azure-ai-foundry/foundry-samples/tree/main/samples/python/hosted-agents)
+
+#### Features & Capabilities
+| Feature | Description |
+|---------|-------------|
+| 🏗️ **Complete Infrastructure** | Microsoft Foundry workspace, Container Registry, model deployments, and Agent Service hosting |
+| 🚀 **One-Command Deployment** | Deploy all hosted agents with `azd deploy` |
+| 📦 **5 Ready-to-Deploy Agents** | Calculator, Web Search, Microsoft Docs, RAG with text search, and MCP-enabled agents |
+| ⚙️ **Fully Managed Hosting** | Auto-scaling, monitoring, and container orchestration handled by Microsoft Foundry |
+
+### 🗣️ Phase 9: AI Language Services with Low-Code Workflows
 **Location:** `ai-language/`
 
 | Implementation | Description |
 |----------|-------------|
 | 🔤 [AI Language Service Lab](ai-language/README.md) | Low-code Logic Apps for PII removal, language detection, and translation. Build workflow solutions for processing multilingual customer feedback with privacy compliance and centralized analytics. |
 
-### 👁️ Phase 9: AI Vision Services with Low-Code Solutions  
+### 👁️ Phase 10: AI Vision Services with Low-Code Solutions  
 **Location:** `ai-vision/`
 
 | Implementation | Description |
@@ -329,7 +346,7 @@ The **Microsoft Agent Framework** is an open-source development kit that unifies
 | 👀 [AI Vision Lab Guide](ai-vision/README.md) | Azure AI Vision low-code exercises including OCR, face detection, image analysis, and video indexing using Vision Studio |
 | 📓 [AI Vision Services Notebook](ai-vision/LabFiles/AI_vision_services_lab.ipynb) | Hands-on Jupyter notebook for computer vision capabilities |
 
-### 📄 Phase 10: Content Understanding & Document Classification
+### 📄 Phase 11: Content Understanding & Document Classification
 **Location:** `content-understanding/`
 
 | Implementation | Description |
@@ -339,7 +356,7 @@ The **Microsoft Agent Framework** is an open-source development kit that unifies
 | 🐍 [Content Understanding Client](content-understanding/content_understanding_client.py) | Python client implementation for Azure AI Content Understanding API |
 | 📋 [Sample Data](content-understanding/Data/) | Sample PDF documents for testing classification and extraction workflows |
 
-### 🛡️ Phase 11: Responsible AI & Content Safety
+### 🛡️ Phase 12: Responsible AI & Content Safety
 **Location:** `responsible-ai/`
 
 | Implementation | Description |
