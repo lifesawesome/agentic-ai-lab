@@ -26,10 +26,11 @@ This comprehensive laboratory transforms you from an AI enthusiast into an Azure
 6. Agent Framework – Advanced Agent Development
 7. Observability & Evaluation
 8. Hosted Agents Deployment
-9. AI Language Services with Low-Code Workflows
-10. AI Vision with Low-Code Solutions
-11. Content Understanding & Document Classification
-12. Responsible AI & Content Safety
+9. Agent Optimization with Fine-Tuning
+10. AI Language Services with Low-Code Workflows
+11. AI Vision with Low-Code Solutions
+12. Content Understanding & Document Classification
+13. Responsible AI & Content Safety
 
 
 > **🎓 Laboratory Format**: One day intensive hands-on experience  
@@ -50,6 +51,7 @@ agentic-ai-lab/
 ├── 🤖⚙️ agent-framework/        # Microsoft Agent Framework for advanced agent development
 ├── 📊 observability-and-evaluations/         # Monitoring, evaluation, and quality assurance
 ├── 🚀 hosted_agents/           # Hosted Agents deployment with Azure Developer CLI
+├── 🎯 agents-optimization-with-fine-tuning/  # Agent optimization using SFT and RFT techniques
 ├── 🗣️ ai-language/             # AI Language Services with Logic Apps low-code workflows
 ├── 👁️ ai-vision/               # AI Vision Services with low-code solutions
 ├── 📄 content-understanding/   # Document classification and content extraction
@@ -331,14 +333,42 @@ The **Microsoft Agent Framework** is an open-source development kit that unifies
 | 📦 **5 Ready-to-Deploy Agents** | Calculator, Web Search, Microsoft Docs, RAG with text search, and MCP-enabled agents |
 | ⚙️ **Fully Managed Hosting** | Auto-scaling, monitoring, and container orchestration handled by Microsoft Foundry |
 
-### 🗣️ Phase 9: AI Language Services with Low-Code Workflows
+### 🎯 Phase 9: Agent Optimization with Fine-Tuning
+**Location:** `agents-optimization-with-fine-tuning/`
+
+This module demonstrates how to improve AI agents using modern fine-tuning techniques in Microsoft Foundry. Learn to make agents more accurate, reliable, and consistent when performing multi-turn interactions and calling tools.
+
+📖 [Complete Fine-Tuning Guide](agents-optimization-with-fine-tuning/README.md) • 📓 [Hands-on Demo Notebook](agents-optimization-with-fine-tuning/demo.ipynb)
+
+#### What You'll Learn
+
+Through guided exercises with the **Agent**, you will master:
+
+| Learning Objective | Description |
+|-------------------|-------------|
+| 📊 **Synthetic Data Generation** | Generate multi-turn conversational data to train and stress-test agent behavior |
+| 🎓 **Supervised Fine-Tuning (SFT)** | Teach correct tool-calling patterns and structured reasoning with labeled examples |
+| ✅ **Python-Based Evaluation** | Use Python graders to evaluate tool accuracy, parameter correctness, and reliability |
+| 🔄 **Reinforcement Fine-Tuning (RFT)** | Optimize complex workflows using reward-based signals and iterative improvement |
+| 📈 **Performance Comparison** | Compare baseline and fine-tuned model behavior to measure improvement impact |
+| 🚀 **Deployment Best Practices** | Learn how to deploy improved agent models in real-world scenarios |
+
+#### Training Techniques Covered
+1. **Supervised Fine-Tuning (SFT)**: Learn from labeled examples to improve tool-calling accuracy
+2. **Reinforcement Fine-Tuning (RFT)**: Use reward signals to optimize agent decision-making
+3. **Evaluation & Grading**: Implement Python graders to measure agent performance
+4. **Iterative Improvement**: Apply continuous feedback loops for ongoing optimization
+
+> **🎯 Outcome:** By completing this module, you'll understand the full workflow for fine-tuning models that power agents—covering data creation, training, evaluation, reinforcement loops, and deployment best practices for production scenarios.
+
+### 🗣️ Phase 10: AI Language Services with Low-Code Workflows
 **Location:** `ai-language/`
 
 | Implementation | Description |
 |----------|-------------|
 | 🔤 [AI Language Service Lab](ai-language/README.md) | Low-code Logic Apps for PII removal, language detection, and translation. Build workflow solutions for processing multilingual customer feedback with privacy compliance and centralized analytics. |
 
-### 👁️ Phase 10: AI Vision Services with Low-Code Solutions  
+### 👁️ Phase 11: AI Vision Services with Low-Code Solutions  
 **Location:** `ai-vision/`
 
 | Implementation | Description |
@@ -346,7 +376,7 @@ The **Microsoft Agent Framework** is an open-source development kit that unifies
 | 👀 [AI Vision Lab Guide](ai-vision/README.md) | Azure AI Vision low-code exercises including OCR, face detection, image analysis, and video indexing using Vision Studio |
 | 📓 [AI Vision Services Notebook](ai-vision/LabFiles/AI_vision_services_lab.ipynb) | Hands-on Jupyter notebook for computer vision capabilities |
 
-### 📄 Phase 11: Content Understanding & Document Classification
+### 📄 Phase 12: Content Understanding & Document Classification
 **Location:** `content-understanding/`
 
 | Implementation | Description |
@@ -356,7 +386,7 @@ The **Microsoft Agent Framework** is an open-source development kit that unifies
 | 🐍 [Content Understanding Client](content-understanding/content_understanding_client.py) | Python client implementation for Azure AI Content Understanding API |
 | 📋 [Sample Data](content-understanding/Data/) | Sample PDF documents for testing classification and extraction workflows |
 
-### 🛡️ Phase 12: Responsible AI & Content Safety
+### 🛡️ Phase 13: Responsible AI & Content Safety
 **Location:** `responsible-ai/`
 
 | Implementation | Description |

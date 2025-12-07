@@ -127,8 +127,18 @@ sample/frontend/.env
 
 .cache/
 .DS_Store
+Thumbs.db
 
 *.lock
+
+# Conversation logs
+conversations/
+
+# IDE and editor files
+.idea/
+*.swp
+*.swo
+*~
 
 # Temporary requirements exports (pip-tools generates requirements.txt)
 requirements_exported.txt
