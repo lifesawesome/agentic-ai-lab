@@ -1,12 +1,12 @@
-# 🚀 Azure AI Foundry & Agents Workshop
+# 🚀 Microsoft Foundry & Agents Workshop
 
-[![Azure AI Foundry](https://img.shields.io/badge/Azure%20AI-Foundry-blue?style=for-the-badge&logo=microsoft)](https://ai.azure.com)
+[![Microsoft Foundry](https://img.shields.io/badge/Microsoft-Foundry-blue?style=for-the-badge&logo=microsoft)](https://ai.azure.com)
 [![Python](https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge&logo=python)](https://python.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Lab-orange?style=for-the-badge&logo=jupyter)](https://jupyter.org)
 
-**End-to-End Azure AI Foundry And Agents Development Laboratory**
+**End-to-End Microsoft Foundry And Agents Development Laboratory**
 
-*Master Azure AI Foundry and Agents through hands-on experimentation and real-world applications*
+*Master Microsoft Foundry and Agents through hands-on experimentation and real-world applications*
 
 ---
 
@@ -16,7 +16,7 @@
 
 ## 🎯 Mission Statement
 
-This comprehensive laboratory transforms you from an AI enthusiast into an Azure AI Foundry expert. Through progressive, hands-on modules, you'll master:
+This comprehensive laboratory transforms you from an AI enthusiast into a Microsoft Foundry expert. Through progressive, hands-on modules, you'll master:
 
 1. Setup, Authentication, Quick Start
 2. Prompting, Embeddings, RAG
@@ -116,13 +116,13 @@ If you have **Docker Desktop** installed, use the DevContainer for a fully confi
 
 > **💡 Tip:** The DevContainer automatically installs all packages with locked versions. No manual setup required!
 
-### Step 4: Azure AI Foundry Setup
+### Step 4: Microsoft Foundry Setup
 
-1. **Create Azure AI Foundry Resource and Project**
+1. **Create Microsoft Foundry Resource and Project**
    
-   To create an AI Foundry resource in the Azure portal follow these instructions:
+   To create a Microsoft Foundry resource in the Azure portal follow these instructions:
 
-   - Select this AI Foundry resource link: https://portal.azure.com/#create/Microsoft.CognitiveServicesAIFoundry
+   - Select this Microsoft Foundry resource link: https://portal.azure.com/#create/Microsoft.CognitiveServicesAIFoundry
 
    - On the Create page, provide the following information:
 
@@ -133,14 +133,14 @@ If you have **Docker Desktop** installed, use the DevContainer for a fully confi
    | **Subscription** | Select one of your available Azure subscriptions. |
    | **Resource group** | The Azure resource group that will contain your Azure AI Foundry resource. You can create a new group or add it to a preexisting group. |
    | **Region** | The location of your Azure AI service instance. Different locations may introduce latency, but have no impact on the runtime availability of your resource. |
-   | **Name** | A descriptive name for your Azure AI Foundry resource. For example, MyAIServicesResource. |
+   | **Name** | A descriptive name for your Microsoft Foundry resource. For example, MyAIServicesResource. |
    | **Default Project Name** | Keep the default project as it is. |
 
    - Keep other settings for your resource as default, read and accept the conditions (as applicable), and then select **Review + create**.
 
 2. **Assign Azure AI User Role**
    
-   **Important:** Developers and lab attendees must be assigned the **Azure AI User** role to interact with the AI Foundry project:
+   **Important:** Developers and lab attendees must be assigned the **Azure AI User** role to interact with the Microsoft Foundry project:
    
    - **Recommended:** Assign at the **Project level**
    - **Alternative:** If encountering permission issues, assign at the **Foundry Resource level**
@@ -163,14 +163,14 @@ If you have **Docker Desktop** installed, use the DevContainer for a fully confi
 
 4. **Configure an Azure Search Service**
    - Create an Azure AI Search resource in Azure
-   - Connect this resource to your AI Foundry project
-      - Navigate to your AI Foundry project → Management Center → Connected Resources → Add Connection → Select Azure AI Search
+   - Connect this resource to your Microsoft Foundry project
+      - Navigate to your Microsoft Foundry project → Management Center → Connected Resources → Add Connection → Select Azure AI Search
       <img src="images/foundry-connection.png" width="75%"/>
 
 5. **Configure Grounding with Bing Search**
    - Create a new Grounding with Bing Search resource in Azure
-   - Connect this resource to your AI Foundry project
-      - Navigate to your AI Foundry project → Management Center → Connected Resources → Add Connection → Select Grounding with Bing Search
+   - Connect this resource to your Microsoft Foundry project
+      - Navigate to your Microsoft Foundry project → Management Center → Connected Resources → Add Connection → Select Grounding with Bing Search
 
 6. **Connect Application Insights for Observability**
    - Connect an Application Insights resource to your Foundry project for monitoring and observability
@@ -184,7 +184,7 @@ If you have **Docker Desktop** installed, use the DevContainer for a fully confi
 8. **Configure Environment Variables**
    - Copy `.env.example` to `.env` in the root directory and update values accordingly
    - This repository expects the `.env` file to be in the root directory, if you want to store it elsewhere or name it something else, update the `load_dotenv()` calls in notebooks
-   - Many of the Environment Variables needed can be found in the Overview tab of your Azure AI Foundry project or the connected resources in the Management Center tab
+   - Many of the Environment Variables needed can be found in the Overview tab of your Microsoft Foundry project or the connected resources in the Management Center tab
    - For example, AZURE_OPENAI variables-
 <img src="images/env-example.png" width="75%"/>  
 
@@ -192,14 +192,14 @@ If you have **Docker Desktop** installed, use the DevContainer for a fully confi
 
 ## 📚 Learning Path
 
-Follow this structured learning path to master Azure AI Foundry:
+Follow this structured learning path to master Microsoft Foundry:
 
 ### 🎯 Phase 1: Foundation (Start Here)
 **Location:** `initial-setup/`
 
 | Notebook | Description |
 |----------|-------------|
-|  [Quick Start](initial-setup/quick_start.ipynb) | First AI model interaction and Azure AI Foundry setup |
+|  [Quick Start](initial-setup/quick_start.ipynb) | First AI model interaction and Microsoft Foundry setup |
 
 ### 💬 Phase 2: Chat & RAG Fundamentals
 **Location:** `chat-rag/`
@@ -259,7 +259,7 @@ The **Microsoft Agent Framework** is an open-source development kit that unifies
 #### 🔌 Model Context Protocol (`agents/mcp/`)
 | Implementation | Description |
 |----------|-------------|
-| 🔌 [Azure AI with MCP](agent-framework/agents/mcp/azure_ai_with_mcp.ipynb) | Hosted MCP tools with Azure AI Foundry agents (basic, multi-tool, thread-based examples) |
+| 🔌 [Azure AI with MCP](agent-framework/agents/mcp/azure_ai_with_mcp.ipynb) | Hosted MCP tools with Microsoft Foundry agents (basic, multi-tool, thread-based examples) |
 | 🖥️ [Agent as MCP Server](agent-framework/agents/mcp/agent_as_mcp_server.py) | Expose Agent Framework agents as MCP servers |
 | 🔐 [MCP API Key Auth](agent-framework/agents/mcp/mcp_api_key_auth.py) | API key authentication patterns for MCP servers |
 
@@ -298,11 +298,11 @@ The **Microsoft Agent Framework** is an open-source development kit that unifies
 | 📦 [Redis Message Store](agent-framework/threads/3-redis_chat_message_store_thread.ipynb) | ⚠️ Requires Redis | Distributed conversation storage with 5 comprehensive examples |
 | 🔄 [Suspend/Resume Threads](agent-framework/threads/4-suspend_resume_thread.ipynb) | ✅ Tested | Service-managed & in-memory thread persistence patterns (converted from Python script) |
 
-#### 📊 Observability (`observability/`)
+### 📊 Observability (`observability/`)
 | Notebook | Description |
 |----------|-------------|
 | 👁️ [Agent Observability](agent-framework/observability/1-azure_ai_agent_observability.ipynb) | Trace LLM calls, tool executions, token usage with Application Insights |
-| 💬 [Chat Client Observability](agent-framework/observability/2-azure_ai_chat_client_with_observability.ipynb) | Monitor Azure AI chat clients with multiple tools |
+| 💬 [Chat Client Observability](agent-framework/observability/2-azure_ai_chat_client_with_observability.ipynb) | Monitor Microsoft Foundry chat clients with multiple tools |
 
 #### 🎨 Development UI (`devui/`)
 | Implementation | Description |
@@ -434,7 +434,7 @@ az account show
 
 ### 📚 Additional Resources
 
-- 📖 [Azure AI Foundry Documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/)
+- 📖 [Microsoft Foundry Documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/)
 - 🎥 [Video Tutorials](https://learn.microsoft.com/en-us/shows/ai-show/)
 - 💡 [Best Practices Guide](https://learn.microsoft.com/en-us/azure/ai-services/responsible-use-of-ai-overview)
 - 🔍 [GitHub Issues](https://github.com/dhangerkapil/agentic-ai-lab/issues) - Report bugs or request features
