@@ -1,5 +1,12 @@
 # 🚀 Microsoft Foundry & Agents Workshop
 
+> [!IMPORTANT]
+> 🆕 **This is the older version of this workshop designed for the old Microsoft Foundry UI.**
+> 
+> The latest version with the **new Foundry UI**, **Agents v2**, **Foundry IQ**, **latest Agent Framework API**, and **real-world industry use cases** is available at:
+> 
+> 👉 **[https://github.com/dhangerkapil/agentic-ai-immersion](https://github.com/dhangerkapil/agentic-ai-immersion)**
+
 [![Microsoft Foundry](https://img.shields.io/badge/Microsoft-Foundry-blue?style=for-the-badge&logo=microsoft)](https://ai.azure.com)
 [![Python](https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge&logo=python)](https://python.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Lab-orange?style=for-the-badge&logo=jupyter)](https://jupyter.org)
